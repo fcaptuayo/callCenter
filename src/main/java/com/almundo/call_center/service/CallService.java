@@ -10,7 +10,8 @@ public interface CallService {
      * Method for process call .
      *
      * @return response the process call .
+     * @throws InterruptedException
      */
-    String process();
+    String process() throws InterruptedException;
 
 }
